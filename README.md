@@ -29,6 +29,8 @@
    
 7. The H2 database can be accessed on  the host user and password details can be found in application.yaml file 
    http://localhost:8080/h2-console/login.jsp
+8. I have added Test coverage for teh calculation classes using unit test cases here is the coverage for that 
+   ![img_1.png](img_1.png)
 
 
 
