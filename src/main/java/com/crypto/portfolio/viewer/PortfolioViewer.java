@@ -27,7 +27,7 @@ public class PortfolioViewer {
     @Autowired
     MarketService marketService;
     public List<Position> positions = new ArrayList<>();
-    public  Portfolio portfolio = new Portfolio();
+    public  Portfolio portfolio;
 
     @Autowired
     JmsTemplate jmsTemplate;
