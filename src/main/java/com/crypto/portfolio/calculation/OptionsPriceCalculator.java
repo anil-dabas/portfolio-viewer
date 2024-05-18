@@ -50,7 +50,7 @@ public class OptionsPriceCalculator {
         return term1 - term2;
     }
 
-    private double getTimeToExpiry(LocalDate maturityDate) {
+    protected double getTimeToExpiry(LocalDate maturityDate) {
         LocalDate today = LocalDate.now();
         long daysToExpiry = ChronoUnit.DAYS.between(today, maturityDate);
         return daysToExpiry / 365.0;
